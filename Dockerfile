@@ -17,4 +17,4 @@ RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
 # Run server
-CMD ["python", "/app/backend/manage.py", "runserver", "0.0.0.0:8000"]
+CMD ["python", "/app/manage.py", "runserver", "0.0.0.0:8000"]
